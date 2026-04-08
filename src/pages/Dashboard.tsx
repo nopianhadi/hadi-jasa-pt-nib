@@ -231,7 +231,7 @@ export default function Dashboard() {
                       bg: 'bg-amber-50'
                     },
                     { 
-                      title: 'Pendaftaran Merek "LegalKreatif"', 
+                      title: 'Pendaftaran Merek "LegalYu"', 
                       status: 'Selesai', 
                       step: 'Sertifikat Terbit', 
                       date: '4 Apr 2026',
@@ -402,7 +402,7 @@ export default function Dashboard() {
             <div className="p-8">
               <div className="space-y-8 relative before:absolute before:inset-0 before:left-[23px] before:w-0.5 before:bg-slate-100">
                 {[
-                  { title: 'Sertifikat Merek Terbit', desc: 'Pendaftaran Merek "LegalKreatif" telah selesai.', date: '6 Apr 2026, 14:20', icon: CheckCircle, color: 'text-green-500', bg: 'bg-green-50' },
+                  { title: 'Sertifikat Merek Terbit', desc: 'Pendaftaran Merek "LegalYu" telah selesai.', date: '6 Apr 2026, 14:20', icon: CheckCircle, color: 'text-green-500', bg: 'bg-green-50' },
                   { title: 'NIB Berhasil Diterbitkan', desc: 'Nomor Induk Berusaha untuk PT Maju Bersama telah aktif.', date: '5 Apr 2026, 09:15', icon: CheckCircle, color: 'text-green-500', bg: 'bg-green-50' },
                   { title: 'Verifikasi Dokumen', desc: 'Dokumen pendirian PT sedang dalam tahap verifikasi oleh tim ahli.', date: '4 Apr 2026, 16:45', icon: Clock, color: 'text-amber-500', bg: 'bg-amber-50' },
                   { title: 'Pembayaran Diterima', desc: 'Pembayaran untuk paket Pendirian PT telah dikonfirmasi.', date: '4 Apr 2026, 10:30', icon: CheckCircle, color: 'text-green-500', bg: 'bg-green-50' },

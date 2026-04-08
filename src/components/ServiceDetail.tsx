@@ -143,7 +143,7 @@ export default function ServiceDetail({ title, onBack, showBackButton = true }: 
   }, [title]);
 
   const data = fetchedData || serviceData[title] || {
-    tagline: '#LegalKreatif',
+    tagline: '#LegalYu',
     subtitle: `Layanan profesional untuk ${title}. Hubungi kami untuk detail lebih lanjut.`,
     image: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=800&q=80',
     reasons: [
@@ -210,7 +210,7 @@ export default function ServiceDetail({ title, onBack, showBackButton = true }: 
           <section className="py-20">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <h3 className="text-3xl font-bold text-center text-slate-900 mb-16">
-                Kelebihan {title} di Legal Kreatif
+                Kelebihan {title} di LegalYu
               </h3>
               <div className="grid md:grid-cols-3 gap-8">
                 {[
@@ -319,7 +319,7 @@ export default function ServiceDetail({ title, onBack, showBackButton = true }: 
                     </ul>
 
                     <a
-                      href="https://wa.me/6282288060093"
+                      href="https://wa.me/62895406181407"
                       className={`w-full flex items-center justify-center py-4 rounded-xl font-bold text-sm transition-all ${pkg.recommended ? 'bg-primary text-white shadow-lg shadow-blue-100' : 'bg-slate-100 text-slate-900 hover:bg-slate-200'}`}
                     >
                       <MessageCircle className="w-4 h-4 mr-2" />

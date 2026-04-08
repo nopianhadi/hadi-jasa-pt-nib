@@ -29,7 +29,7 @@ export default function Features() {
         <div className="text-center mb-16">
           <h2 className="text-sm font-bold text-primary tracking-wider uppercase mb-3">Kelebihan</h2>
           <h3 className="text-3xl md:text-4xl font-bold text-slate-900">
-            Alasan kenapa Anda harus memilih Legal Kreatif?
+            Alasan kenapa Anda harus memilih LegalYu?
           </h3>
         </div>
 

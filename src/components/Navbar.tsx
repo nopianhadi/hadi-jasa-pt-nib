@@ -48,7 +48,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center">
           <Link to="/" className="flex-shrink-0 flex items-center cursor-pointer">
             <span className={`text-2xl font-bold text-primary`}>
-              LEGAL<span className="text-secondary">KREATIF</span>
+              LEGAL<span className="text-secondary">YU</span>
             </span>
           </Link>
           
@@ -90,7 +90,7 @@ export default function Navbar() {
                 </Link>
               )}
               <a
-                href="https://wa.me/6282288060093"
+                href="https://wa.me/62895406181407"
                 className="inline-flex items-center px-6 py-2.5 border border-transparent text-sm font-bold rounded-full shadow-lg text-white bg-primary hover:bg-blue-900 transition-all hover:scale-105"
               >
                 <Phone className="w-4 h-4 mr-2" />
@@ -160,7 +160,7 @@ export default function Navbar() {
                   </Link>
                 )}
                 <a
-                  href="https://wa.me/6282288060093"
+                  href="https://wa.me/62895406181407"
                   className="w-full flex justify-center items-center px-4 py-3 border border-transparent text-base font-bold rounded-full shadow-lg text-white bg-primary"
                 >
                   <Phone className="w-5 h-5 mr-2" />

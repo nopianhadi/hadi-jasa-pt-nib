@@ -67,7 +67,7 @@ export default function Contact() {
                 <div>
                   <h3 className="text-xl font-bold text-slate-900 mb-2">Telepon & WhatsApp</h3>
                   <p className="text-slate-600 leading-relaxed">
-                    +62 822 8806 0093 <br />
+                    +62 895 4061 81407 <br />
                     +62 21 1234 5678
                   </p>
                 </div>
@@ -80,8 +80,8 @@ export default function Contact() {
                 <div>
                   <h3 className="text-xl font-bold text-slate-900 mb-2">Email</h3>
                   <p className="text-slate-600 leading-relaxed">
-                    halo@legalkreatif.id <br />
-                    support@legalkreatif.id
+                    halo@legalyu.id <br />
+                    support@legalyu.id
                   </p>
                 </div>
               </div>

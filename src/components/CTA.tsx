@@ -20,7 +20,7 @@ export default function CTA() {
                 Tim ahli kami siap membantu memberikan solusi legalitas terbaik untuk bisnis Anda. Konsultasi gratis!
               </p>
               <a
-                href="https://wa.me/6282288060093"
+                href="https://wa.me/62895406181407"
                 className="inline-flex items-center justify-center px-8 py-4 rounded-full bg-[#25D366] text-white font-bold text-lg shadow-lg shadow-green-100 hover:bg-[#128C7E] transition-all group"
               >
                 <MessageCircle className="mr-2 w-6 h-6" />

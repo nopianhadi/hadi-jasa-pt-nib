@@ -5,7 +5,7 @@ const testimonials = [
   {
     name: 'Ahmad Abdul Aziz',
     time: '2 bulan lalu',
-    content: 'Pelayanan sangat cepat, admin cepat tanggap bikin PT di LEGAL KREATIF hitungan jam gak nunggu lama. Sukses buat LEGAL KREATIF',
+    content: 'Pelayanan sangat cepat, admin cepat tanggap bikin PT di LEGALYU hitungan jam gak nunggu lama. Sukses buat LEGALYU',
     rating: 5,
   },
   {
@@ -23,7 +23,7 @@ const testimonials = [
   {
     name: 'Auto klin Salon mobil',
     time: '6 bulan lalu',
-    content: 'Thankyou Legal Kreatif, ngurus disini ngga pake ribet dan ngga pake lama. Ngga pake hitungan hari, berkas² beres semua. Sukses terus.',
+    content: 'Thankyou LegalYu, ngurus disini ngga pake ribet dan ngga pake lama. Ngga pake hitungan hari, berkas² beres semua. Sukses terus.',
     rating: 5,
   },
 ];

@@ -20,7 +20,7 @@ export default function Hero() {
               Legal Service Terpercaya
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 leading-tight mb-6">
-              Legal Kreatif, Solusi Terbaik <span className="text-primary">Pengurusan Perizinan</span> Usahamu
+              LegalYu, Solusi Terbaik <span className="text-primary">Pengurusan Perizinan</span> Usahamu
             </h1>
             <p className="text-lg text-slate-600 mb-8 max-w-lg">
               Kami siap membantu kamu dalam pengurusan Perizinan Usaha dengan Proses Mudah, Aman, dan Menyenangkan.

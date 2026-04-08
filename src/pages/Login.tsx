@@ -46,7 +46,7 @@ export default function Login() {
             className="mb-12"
           >
             <Link to="/" className="text-3xl font-bold tracking-tighter flex items-center mb-12">
-              LEGAL<span className="text-secondary">KREATIF</span>
+              LEGAL<span className="text-secondary">YU</span>
             </Link>
             <h1 className="text-5xl font-bold mb-6 leading-tight">
               Kelola Legalitas Bisnis Anda <br /> <span className="text-primary">Dalam Satu Genggaman</span>
@@ -85,7 +85,7 @@ export default function Login() {
         <div className="w-full max-w-md">
           <div className="lg:hidden mb-12 text-center">
             <Link to="/" className="text-2xl font-bold tracking-tighter inline-flex items-center">
-              LEGAL<span className="text-secondary">KREATIF</span>
+              LEGAL<span className="text-secondary">YU</span>
             </Link>
           </div>
 
@@ -96,7 +96,7 @@ export default function Login() {
           >
             <div className="mb-10">
               <h2 className="text-3xl font-bold text-slate-900 mb-2">Selamat Datang</h2>
-              <p className="text-slate-500">Masuk ke akun Legal Kreatif Anda</p>
+              <p className="text-slate-500">Masuk ke akun LegalYu Anda</p>
             </div>
 
             {error && (

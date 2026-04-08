@@ -9,7 +9,7 @@ export default function Footer() {
           <div className="col-span-1 lg:col-span-1">
             <div className="mb-6">
               <Link to="/" className="text-2xl font-bold text-white">
-                LEGAL<span className="text-secondary">KREATIF</span>
+                LEGAL<span className="text-secondary">YU</span>
               </Link>
             </div>
             <p className="text-sm leading-relaxed mb-8">
@@ -61,18 +61,18 @@ export default function Footer() {
               </li>
               <li className="flex items-center">
                 <Phone className="w-5 h-5 mr-3 text-primary flex-shrink-0" />
-                <span>+6282288060093</span>
+                <span>+62895406181407</span>
               </li>
               <li className="flex items-center">
                 <Mail className="w-5 h-5 mr-3 text-primary flex-shrink-0" />
-                <span>cs@legalkreatif.co.id</span>
+                <span>cs@legalyu.co.id</span>
               </li>
             </ul>
           </div>
         </div>
         
         <div className="pt-8 border-t border-slate-800 text-center text-xs text-slate-500">
-          <p>© 2026 Legal Kreatif. All rights reserved. Solusi Perizinan Usaha Terbaik di Indonesia.</p>
+          <p>© 2026 LegalYu. All rights reserved. Solusi Perizinan Usaha Terbaik di Indonesia.</p>
         </div>
       </div>
     </footer>

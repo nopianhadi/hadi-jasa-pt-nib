@@ -53,7 +53,7 @@ export default function SignUp() {
             className="mb-12"
           >
             <Link to="/" className="text-3xl font-bold tracking-tighter flex items-center mb-12">
-              LEGAL<span className="text-secondary">KREATIF</span>
+              LEGAL<span className="text-secondary">YU</span>
             </Link>
             <h1 className="text-5xl font-bold mb-6 leading-tight">
               Mulai Perjalanan Bisnis Anda <br /> <span className="text-primary">Bersama Kami</span>
@@ -70,7 +70,7 @@ export default function SignUp() {
         <div className="w-full max-w-md">
           <div className="lg:hidden mb-12 text-center">
             <Link to="/" className="text-2xl font-bold tracking-tighter inline-flex items-center">
-              LEGAL<span className="text-secondary">KREATIF</span>
+              LEGAL<span className="text-secondary">YU</span>
             </Link>
           </div>
 
