@@ -121,6 +121,7 @@ export default function Pricing() {
 
                   <a
                     href="https://wa.me/62895406181407"
+                    id={`pricing-btn-${pkg.name.toLowerCase().replace(/\s+/g, '-')}`}
                     className={`w-full flex items-center justify-center py-4 rounded-xl font-bold text-sm transition-all ${pkg.recommended ? 'bg-primary text-white shadow-lg shadow-blue-100' : 'bg-slate-100 text-slate-900 hover:bg-slate-200'}`}
                   >
                     <MessageCircle className="w-4 h-4 mr-2" />
@@ -159,6 +160,7 @@ export default function Pricing() {
             <div className="flex justify-center lg:justify-end">
               <a 
                 href="https://wa.me/62895406181407"
+                id="pricing-cta-sales"
                 className="bg-primary hover:bg-blue-600 text-white px-10 py-5 rounded-2xl font-bold text-lg transition-all shadow-xl shadow-primary/20 flex items-center"
               >
                 Hubungi Sales Kami

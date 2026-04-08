@@ -16,7 +16,7 @@ export default function Footer() {
               Solusi Perizinan Usaha Anda. Kami membantu pengusaha di seluruh Indonesia untuk melegalkan bisnis mereka dengan cepat dan profesional.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-primary transition-colors">
+              <a href="#" id="footer-social-instagram" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-primary transition-colors">
                 <Instagram className="w-5 h-5" />
               </a>
               <a href="#" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-primary transition-colors">
@@ -34,11 +34,11 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-bold mb-6 uppercase tracking-wider text-sm">Navigasi</h4>
             <ul className="space-y-4 text-sm">
-              <li><Link to="/" className="hover:text-white transition-colors">Home</Link></li>
-              <li><Link to="/#layanan" className="hover:text-white transition-colors">Layanan</Link></li>
-              <li><Link to="/harga" className="hover:text-white transition-colors">Daftar Harga</Link></li>
-              <li><Link to="/layanan/tracker" className="hover:text-white transition-colors">Tracker</Link></li>
-              <li><Link to="/contact" className="hover:text-white transition-colors">Contact Us</Link></li>
+              <li><Link to="/" id="footer-nav-home" className="hover:text-white transition-colors">Home</Link></li>
+              <li><Link to="/#layanan" id="footer-nav-layanan" className="hover:text-white transition-colors">Layanan</Link></li>
+              <li><Link to="/harga" id="footer-nav-harga" className="hover:text-white transition-colors">Daftar Harga</Link></li>
+              <li><Link to="/layanan/tracker" id="footer-nav-tracker" className="hover:text-white transition-colors">Tracker</Link></li>
+              <li><Link to="/contact" id="footer-nav-contact" className="hover:text-white transition-colors">Contact Us</Link></li>
             </ul>
           </div>
 

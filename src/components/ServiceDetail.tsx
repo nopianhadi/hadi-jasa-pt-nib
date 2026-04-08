@@ -161,6 +161,7 @@ export default function ServiceDetail({ title, onBack, showBackButton = true }: 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <button 
             onClick={onBack}
+            id="service-back-btn"
             className="inline-flex items-center text-primary font-bold hover:underline mb-8"
           >
             <ArrowLeft className="w-5 h-5 mr-2" />
@@ -320,6 +321,7 @@ export default function ServiceDetail({ title, onBack, showBackButton = true }: 
 
                     <a
                       href="https://wa.me/62895406181407"
+                      id={`service-pkg-btn-${pkg.name.toLowerCase().replace(/\s+/g, '-')}`}
                       className={`w-full flex items-center justify-center py-4 rounded-xl font-bold text-sm transition-all ${pkg.recommended ? 'bg-primary text-white shadow-lg shadow-blue-100' : 'bg-slate-100 text-slate-900 hover:bg-slate-200'}`}
                     >
                       <MessageCircle className="w-4 h-4 mr-2" />

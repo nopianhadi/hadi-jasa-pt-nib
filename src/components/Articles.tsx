@@ -33,7 +33,10 @@ export default function Articles() {
               Selalu update dengan berita mengenai legalitas
             </h3>
           </div>
-          <button className="hidden md:flex items-center text-primary font-bold hover:underline">
+          <button 
+            id="articles-view-all-desktop"
+            className="hidden md:flex items-center text-primary font-bold hover:underline"
+          >
             Lihat Semua Artikel
             <ArrowRight className="ml-2 w-4 h-4" />
           </button>
@@ -76,7 +79,10 @@ export default function Articles() {
         </div>
         
         <div className="mt-12 md:hidden">
-          <button className="w-full py-4 border-2 border-primary text-primary font-bold rounded-xl">
+          <button 
+            id="articles-view-all-mobile"
+            className="w-full py-4 border-2 border-primary text-primary font-bold rounded-xl"
+          >
             Lihat Semua Artikel
           </button>
         </div>

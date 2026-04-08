@@ -58,6 +58,7 @@ export default function Navbar() {
               <Link
                 key={link.name}
                 to={link.href}
+                id={`nav-link-${link.name.toLowerCase()}`}
                 className={`text-sm font-medium transition-colors ${scrolled ? 'text-slate-700 hover:text-primary' : 'text-slate-700 md:text-slate-900 hover:text-primary'}`}
               >
                 {link.name}
@@ -68,6 +69,7 @@ export default function Navbar() {
                 <div className="flex items-center space-x-4">
                   <Link
                     to="/dashboard"
+                    id="nav-dashboard-link"
                     className="flex items-center text-sm font-bold text-slate-700 hover:text-primary transition-colors"
                   >
                     <LayoutDashboard className="w-4 h-4 mr-2" />
@@ -75,6 +77,7 @@ export default function Navbar() {
                   </Link>
                   <button
                     onClick={handleLogout}
+                    id="nav-logout-btn"
                     className="flex items-center text-sm font-bold text-red-600 hover:text-red-800 transition-colors"
                   >
                     <LogOut className="w-4 h-4 mr-2" />
@@ -84,6 +87,7 @@ export default function Navbar() {
               ) : (
                 <Link
                   to="/login"
+                  id="nav-login-link"
                   className="text-sm font-bold text-primary hover:text-blue-900 transition-colors"
                 >
                   Masuk
@@ -91,6 +95,7 @@ export default function Navbar() {
               )}
               <a
                 href="https://wa.me/62895406181407"
+                id="nav-consultation-btn"
                 className="inline-flex items-center px-6 py-2.5 border border-transparent text-sm font-bold rounded-full shadow-lg text-white bg-primary hover:bg-blue-900 transition-all hover:scale-105"
               >
                 <Phone className="w-4 h-4 mr-2" />

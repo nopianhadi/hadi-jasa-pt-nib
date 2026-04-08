@@ -166,6 +166,7 @@ export default function Contact() {
                   </div>
                   <button 
                     type="submit"
+                    id="contact-form-submit"
                     disabled={loading}
                     className="w-full bg-primary hover:bg-blue-600 text-white py-5 rounded-2xl font-bold text-lg transition-all shadow-xl shadow-primary/20 flex items-center justify-center disabled:opacity-50"
                   >

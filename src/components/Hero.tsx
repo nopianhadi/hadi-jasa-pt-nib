@@ -26,7 +26,10 @@ export default function Hero() {
               Kami siap membantu kamu dalam pengurusan Perizinan Usaha dengan Proses Mudah, Aman, dan Menyenangkan.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="inline-flex items-center justify-center px-8 py-4 rounded-full bg-primary text-white font-bold text-lg shadow-lg shadow-blue-200 hover:bg-blue-900 transition-all group">
+              <button 
+                id="hero-cta-btn"
+                className="inline-flex items-center justify-center px-8 py-4 rounded-full bg-primary text-white font-bold text-lg shadow-lg shadow-blue-200 hover:bg-blue-900 transition-all group"
+              >
                 Selengkapnya
                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </button>
